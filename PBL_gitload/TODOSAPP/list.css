@@ -1,0 +1,57 @@
+input,
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 0 15px;
+  outline: none;
+  background-color: lightblue;
+  color: gray;
+  font-size: 30px;
+  padding-left: 42px;
+}
+
+button {
+  width: 85px;
+  height: 35px;
+  background-color:lightblue;
+  color: gray;
+  position: absolute;
+  margin-right: 2px;
+}
+
+ul {
+  list-style: none;
+  margin: 20px 10px;
+}
+
+.todo-list {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: center;
+  border: none;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+.todo-check {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  width: 1.5rem;
+  margin: 0.5rem 35rem 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+}
+
+.todo-check .checked{
+  border-color: blueviolet;
+}
